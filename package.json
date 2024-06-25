@@ -1,0 +1,29 @@
+{
+  "name": "memos-api",
+  "version": "1.0.0",
+  "description": "SDK for accessing memos service (https://github.com/usememos/memos)",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xu4wang/memos-api.git"
+  },
+  "keywords": [
+    "memos",
+    "sdk",
+    "notes",
+    "taking"
+  ],
+  "author": "xu4wang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xu4wang/memos-api/issues"
+  },
+  "homepage": "https://github.com/xu4wang/memos-api#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
